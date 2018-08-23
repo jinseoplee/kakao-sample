@@ -59,4 +59,12 @@
   font-size: 20px;
   color: #523737;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: color 0.3s, background 0.6s, transform 0.5s ease-in-out;
+}
+
+.chat-btn:hover {
+  color: #ffffff;
+  background-color: #523737;
+  transform: rotate(1turn);
 }
